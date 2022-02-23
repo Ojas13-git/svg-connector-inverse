@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title> SVG Scroll animation </title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+
+<div class="container">
+  <div class="row">
+    <p class="text-center"><strong>Scroll down</strong>
+      <br>
+       <i class="fa fa-chevron-down"></i>
+      
+    </p> 
+  </div>
+    <div class="row" style="margin-top: 600px;">
+        <div class="col-md-12">
+            <div class="holder-content">
+                <div id="main">
+                    <div class="container">
+                        <div class="row">
+                            <svg height="160" width="100%">
+                               
+                                <path id="lineN"
+                                      class="revealOnScroll visible-md"
+                                      d="M 480,0 V 98">
+                                </path>
+                                <path id="lineN"
+                                      class="revealOnScroll visible-lg"
+                                      d="M 585,100 V 500,">   //0 V 98
+                                </path>
+                                
+                                <path id="lineLeft3"
+                                      class="revealOnScrollDelayed speed-3x visible-md"
+                                      d="M 483, 100 H 110">
+                                </path>
+                                <path id="lineLeft3"
+                                      class="revealOnScrollDelayed speed-3x visible-lg"
+                                      d="M 583, 100 H 195.5">
+                                </path>
+                                
+                                <path id="lineRight4"
+                                      class="revealOnScrollDelayed speed-3x visible-md"
+                                      d="M 480 100 864 100">
+                                </path>
+                                <path id="lineRight4"
+                                      class="revealOnScrollDelayed speed-3x visible-lg"
+                                      d="M 582 100 979.5 100">
+                                </path>
+                                
+                                <path id="lineP"
+                                      class="revealOnScrollDelayedLast speed-2x visible-md"
+                                      d="M 112,100 V 200">  
+                                </path>
+                               
+                                <path id="lineP"
+                                      class="revealOnScrollDelayedLast speed-2x visible-lg"
+                                      d="M 197,100 V 0">   //100 V 200
+                                </path>
+
+
+                                
+                                <path id="lineQ"
+                                      class="revealOnScrollDelayedLast speed-2x visible-md"
+                                      d="M 300,100 V 200">
+                                </path>
+                                
+                                <path id="lineR"
+                                      class="revealOnScrollDelayedLast speed-2x visible-md"
+                                      d="M 480,100 V 200">
+                                </path>
+                                
+                                <path id="lineS"
+                                      class="revealOnScrollDelayedLast speed-2x visible-md"
+                                      d="M 675,100 V 200">
+                                </path>
+                                
+                                <path id="lineT"
+                                      class="revealOnScrollDelayedLast speed-2x visible-md"
+                                      d="M 862,100 V 200">
+                                </path>
+                                
+                                <path id="lineT"
+                                      class="revealOnScrollDelayedLast speed-2x visible-lg"
+                                      d="M 978,100 V 0">
+                                </path>
+                            </svg>
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
