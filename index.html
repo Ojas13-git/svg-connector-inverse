@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - SVG Scroll animation </title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="container">
+  <div class="row">
+    <p class="text-center"><strong>Scroll down</strong>
+      <br>
+       <i class="fa fa-chevron-down"></i>
+      
+    </p> 
+  </div>
+    <div class="row" style="margin-top: 600px;">
+        <div class="col-md-12">
+            <div class="holder-content">
+                <div id="main">
+                    <div class="container">
+                        <div class="row">
+                            <svg height="160" width="100%">
+                                <!--Middle line-->
+                                <path id="lineN"
+                                      class="revealOnScroll visible-md"
+                                      d="M 480,0 V 98">
+                                </path>
+                                <path id="lineN"
+                                      class="revealOnScroll visible-lg"
+                                      d="M 585,0 V 98">
+                                </path>
+                                <!--Horizontal lines-->
+                                <!--Left Horizontal line-->
+                                <path id="lineLeft3"
+                                      class="revealOnScrollDelayed speed-3x visible-md"
+                                      d="M 483, 100 H 110">
+                                </path>
+                                <path id="lineLeft3"
+                                      class="revealOnScrollDelayed speed-3x visible-lg"
+                                      d="M 583, 100 H 195.5">
+                                </path>
+                                <!--Right Horizontal line-->
+                                <path id="lineRight4"
+                                      class="revealOnScrollDelayed speed-3x visible-md"
+                                      d="M 480 100 864 100">
+                                </path>
+                                <path id="lineRight4"
+                                      class="revealOnScrollDelayed speed-3x visible-lg"
+                                      d="M 582 100 979.5 100">
+                                </path>
+                                <!--Bottom Spider lines section-->
+
+                                <!--Bottom vertical lines-->
+                                <!--visible-md-->
+                                <path id="lineP"
+                                      class="revealOnScrollDelayedLast speed-2x visible-md"
+                                      d="M 112,100 V 200">
+                                </path>
+                                <!--visible-lg-->
+                                <path id="lineP"
+                                      class="revealOnScrollDelayedLast speed-2x visible-lg"
+                                      d="M 197,100 V 200">
+                                </path>
+
+
+                                <!--visible-md-->
+                                <path id="lineQ"
+                                      class="revealOnScrollDelayedLast speed-2x visible-md"
+                                      d="M 300,100 V 200">
+                                </path>
+                                <!--visible-lg-->
+                                <path id="lineQ"
+                                      class="revealOnScrollDelayedLast speed-2x visible-lg"
+                                      d="M 390,100 V 200">
+                                </path>
+
+
+                                <!--Second line-->
+                                <!--visible-md-->
+                                <path id="lineR"
+                                      class="revealOnScrollDelayedLast speed-2x visible-md"
+                                      d="M 480,100 V 200">
+                                </path>
+                                <!--visible-lg-->
+                                <path id="lineR"
+                                      class="revealOnScrollDelayedLast speed-2x visible-lg"
+                                      d="M 585,100 V 200">
+                                </path>
+
+                                <!--visible-md-->
+                                <path id="lineS"
+                                      class="revealOnScrollDelayedLast speed-2x visible-md"
+                                      d="M 675,100 V 200">
+                                </path>
+                                <!--visible-lg-->
+                                <path id="lineS"
+                                      class="revealOnScrollDelayedLast speed-2x visible-lg"
+                                      d="M 782,100 V 200">
+                                </path>
+
+                                <!--visible-md-->
+                                <path id="lineT"
+                                      class="revealOnScrollDelayedLast speed-2x visible-md"
+                                      d="M 862,100 V 200">
+                                </path>
+                                <!--visible-lg-->
+                                <path id="lineT"
+                                      class="revealOnScrollDelayedLast speed-2x visible-lg"
+                                      d="M 978,100 V 200">
+                                </path>
+                            </svg>
+                        </div>
+                        <div class="row">
+                            <div class="container">
+                                <ul class="nav-justified nav pfs-activities">
+                                    <!--First circle - Banking -->
+                                    <li class="text-center">
+                                        <section class="section-padded">
+                                            <div class="circle">
+                                                <svg version="1.1"
+                             xmlns="http://www.w3.org/2000/svg"
+                                     xmlns:xlink="http://www.w3.org/1999/xlink"
+                             x="0px"
+                             y="0px"
+                             width="100%"
+                             height="100%"
+                             viewBox="18 3 130 100"
+                             enable-background="new 18 3 130 100"
+                             xml:space="preserve"
+                             class="gauge-svg">
+                            <!--grey circles-->
+                                <g>
+                                <!--first grey bordered circle-->
+                                    <path
+                                        class="revealOnScrollDelayedLast b-c-p1 speed-1x"
+                                        d="M83,99.916c-24.806,0-44.916-20.109-44.916-44.916c0-24.806,20.109-44.917,
+                                        44.916-44.917c24.807,0,44.916,20.11,44.916,44.917C127.916,
+                                        79.807,107.807,99.916,83,99.916z">
+                                    </path>
+                                <div class="circle-inner">
+                                    <p class="small">
+                                        <strong>100%</strong>
+                                    </p>
+                                </div>
+                                </g>
+                                      <div class="circle-inner">
+                                    <p class="small">
+                                        <strong>100%</strong>
+                                    </p>
+                                </div>
+                            </svg>
+                                            </div>
+                                            <p>
+                                                <small>
+                                                </small>
+                                            </p>
+                                            <p>
+                                                Banking </p>
+                                        </section>
+                                        <section class="section-unpadded">
+                                            <div class="btn-shareholdings">
+                                                <a href="#btnShareholdingsExpanded"
+                                                   class="btn btn-block btn-shareholders text-uppercase"
+                                                   data-toggle="collapse">
+                                                    <i class="fa fa-plus"></i>
+                                                    <small>
+                                                    </small>
+                                                </a>
+                                                <div id="btnShareholdingsExpanded"
+                                                     class="collapse">
+                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                                </div>
+                                            </div>
+                                        </section>
+                                    </li>
+
+                                    <!--Second circle - Emerging markets-->
+                                    <li class="text-center">
+                                        <section class="section-padded">
+                                            <div class="circle">
+                                                <svg version="1.1"
+                             xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                             x="0px"
+                             y="0px"
+                             width="100%"
+                             height="100%"
+                             viewBox="18 3 130 100"
+                             enable-background="new 18 3 130 100"
+                             xml:space="preserve"
+                             class="gauge-svg">
+                            <!--grey circles-->
+                                <g>
+                                <!-- second grey bordered circle-->
+                                    <path class="b-c-p2 revealOnScrollDelayedLast speed-1x"
+                                        d="M83,99.916c-24.806,0-44.916-20.109-44.916-44.916c0-24.806,20.109-44.917,
+                                        44.916-44.917c24.807,0,44.916,20.11,44.916,44.917C127.916,
+                                        79.807,107.807,99.916,83,99.916z">
+                                    </path>
+                                    <div class="circle-inner">
+                                        <p class="small">
+                                            <strong>100%</strong>
+                                        </p>
+                                    </div>
+                                </g>
+                                  <div class="circle-inner">
+                                    <p class="small">
+                                        <strong>100%</strong>
+                                    </p>
+                                </div>
+                            </svg>
+                                            </div>
+                                            <p>
+                                                <small>
+                                                </small>
+                                            </p>
+                                            <p>
+                                                Lorem ipsum
+                                            </p>
+                                        </section>
+                                        <section class="section-unpadded">
+                                            <div class="btn-shareholdings">
+                                                <a href="#btnShareholdingsExpanded2"
+                                                   class="btn btn-block btn-shareholders text-uppercase"
+                                                   data-toggle="collapse">
+                                                    <i class="fa fa-plus"></i>
+                                                    <small>
+                                                    </small>
+                                                </a>
+                                                <div id="btnShareholdingsExpanded2"
+                                                     class="collapse">
+                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                                </div>
+                                            </div>
+                                        </section>
+                                    </li>
+
+                                    <!--Third circle - Other activities-->
+                                    <li class="text-center">
+                                        <section class="section-padded">
+                                            <div class="circle">
+                                                <svg version="1.1"
+                             xmlns="http://www.w3.org/2000/svg"
+                                     xmlns:xlink="http://www.w3.org/1999/xlink"
+                             x="0px"
+                             y="0px"
+                             width="100%"
+                             height="100%"
+                             viewBox="18 3 130 100"
+                             enable-background="new 18 3 130 100"
+                             xml:space="preserve"
+                             class="gauge-svg">
+                            <!--grey circles-->
+                                <g>
+                                <!-- Third grey bordered circle-->
+                                    <path class="b-c-p3 revealOnScrollDelayedLast speed-1x"
+                                        d="M83,99.916c-24.806,0-44.916-20.109-44.916-44.916c0-24.806,20.109-44.917,
+                                        44.916-44.917c24.807,0,44.916,20.11,44.916,44.917C127.916,
+                                        79.807,107.807,99.916,83,99.916z">
+                                    </path>
+                                <div class="circle-inner">
+                                    <p class="small">
+                                        <strong>100%</strong>
+                                    </p>
+                                </div>
+                                </g>
+                                      <div class="circle-inner">
+                                    <p class="small">
+                                        <strong>100%</strong>
+                                    </p>
+                                </div>
+                            </svg>
+
+                                            </div>
+                                            <p>
+                                                <small>
+                                                </small>
+                                            </p>
+                                            <p>
+                                                Lorem ipsum
+                                            </p>
+                                        </section>
+                                        <section class="section-unpadded">
+                                            <div class="btn-shareholdings">
+                                                <a href="#btnShareholdingsExpanded3"
+                                                   class="btn btn-block btn-shareholders text-uppercase"
+                                                   data-toggle="collapse">
+                                                    <i class="fa fa-plus"></i>
+                                                    <small>
+                                                    </small>
+                                                </a>
+
+                                                <div id="btnShareholdingsExpanded3"
+                                                     class="collapse">
+                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                                </div>
+                                            </div>
+                                        </section>
+                                    </li>
+
+                                    <!--Fourth circle - Investment management-->
+                                    <li class="text-center">
+                                        <section class="section-padded">
+                                            <div class="circle">
+                                                <svg version="1.1"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                     xmlns:xlink="http://www.w3.org/1999/xlink"
+                                     x="0px"
+                                     y="0px"
+                                     width="100%"
+                                     height="100%"
+                                     viewBox="18 3 130 100"
+                                     enable-background="new 18 3 130 100"
+                                     xml:space="preserve"
+                                     class="gauge-svg">
+                            <!--grey circles-->
+                                <g>
+                                <!--fourth grey bordered circle-->
+                                    <path class="b-c-p4 revealOnScrollDelayedLast speed-1x"
+                                        d="M83,99.916c-24.806,0-44.916-20.109-44.916-44.916c0-24.806,20.109-44.917,
+                                        44.916-44.917c24.807,0,44.916,20.11,44.916,44.917C127.916,
+                                        79.807,107.807,99.916,83,99.916z">
+                                    </path>
+                                <div class="circle-inner">
+                                    <p class="small">
+                                        <strong>100%</strong>
+                                    </p>
+                                </div>
+                                </g>
+                                      <div class="circle-inner">
+                                    <p class="small">
+                                        <strong>100%</strong>
+                                    </p>
+                                </div>
+                            </svg>
+
+                                            </div>
+                                            <p>
+                                                <small>
+
+
+                                                </small>
+                                            </p>
+                                            <p>
+                                                Lorem ipsum
+                                            </p>
+                                        </section>
+                                        <section class="section-unpadded">
+                                            <div class="btn-shareholdings">
+                                                <a href="#btnShareholdingsExpanded4"
+                                                   class="btn btn-block btn-shareholders text-uppercase"
+                                                   data-toggle="collapse">
+                                                    <i class="fa fa-plus"></i>
+                                                    <small>
+                                                    </small>
+                                                </a>
+
+                                                <div id="btnShareholdingsExpanded4"
+                                                     class="collapse">
+                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                                </div>
+                                            </div>
+                                        </section>
+                                    </li>
+
+                                    <!--Fifth circle - Insurance-->
+                                    <li class="text-center">
+                                        <section class="section-padded">
+                                            <div class="circle">
+                                                <svg version="1.1"
+                             xmlns="http://www.w3.org/2000/svg"
+                                     xmlns:xlink="http://www.w3.org/1999/xlink"
+                             x="0px"
+                             y="0px"
+                             width="100%"
+                             height="100%"
+                             viewBox="18 3 130 100"
+                             enable-background="new 18 3 130 100"
+                             xml:space="preserve"
+                             class="gauge-svg">
+                            <!--grey circles-->
+                                <g>
+                                <!--fifth grey bordered circle-->
+                                    <path   class="b-c-p5 revealOnScrollDelayedLast speed-1x"
+                                        d="M83,99.916c-24.806,0-44.916-20.109-44.916-44.916c0-24.806,20.109-44.917,
+                                        44.916-44.917c24.807,0,44.916,20.11,44.916,44.917C127.916,
+                                        79.807,107.807,99.916,83,99.916z">
+                                    </path>
+                                <div class="circle-inner">
+                                    <p class="small">
+                                        <strong>100%</strong>
+                                    </p>
+                                </div>
+                                </g>
+                                      <div class="circle-inner">
+                                    <p class="small">
+                                        <strong>100%</strong>
+                                    </p>
+                                </div>
+                            </svg>
+
+                                            </div>
+                                            <p>
+                                                <small>
+                                                </small>
+                                            </p>
+                                            <p>
+                                                Lorem ipsum
+                                            </p>
+                                        </section>
+                                        <section class="section-unpadded">
+                                            <div class="btn-shareholdings">
+                                                <a href="#btnShareholdingsExpanded5"
+                                                   class="btn btn-block  btn-shareholders text-uppercase"
+                                                   data-toggle="collapse">
+                                                    <i class="fa fa-plus"></i>
+                                                    <small>
+                                                    </small>
+                                                </a>
+
+                                                <div id="btnShareholdingsExpanded5"
+                                                     class="collapse">
+                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                                </div>
+                                            </div>
+                                        </section>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
